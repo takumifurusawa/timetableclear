@@ -901,6 +901,7 @@ def render_sidebar():
     サイドバーにExcelボタン群・STEPナビゲーションを表示する。
     """
     st.sidebar.title("📅 小学校時間割生成")
+    st.sidebar.markdown("🆕 **最新版**")
     st.sidebar.markdown("---")
 
     # Excelテンプレートダウンロード
